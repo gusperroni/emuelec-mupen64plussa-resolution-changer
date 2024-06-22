@@ -9,7 +9,7 @@ This project contains scripts for Emuelec to update the resolution of Mupen64Plu
 - **bin**
   - `m64p.sh` - A modified launcher script for Mupen64Plus Standalone, based on the one provided on Emuelec v4.7. This script attempts to get the resolution from a config file located in the Mupen64Plus folder (see `m64p_resolution_changer.sh`). If the config file is absent or contains an invalid resolution, the script fetches the resolution from the system. If all attempts fail, it fallbacks to 1920x1080
 - **scripts**
-  - `m64p_resolution_changer.sh` - A script to create or clear the config file in the Mupen64Plus folder. It also provides a dialog menu with options for the user to select the desired resolution
+  - `m64p_resolution_changer.sh` - A script to create and/or update the resolution config file in the Mupen64Plus folder. It provides a dialog menu with options for the user to select the desired resolution
 
 ## Usage
 
@@ -22,4 +22,4 @@ This project contains scripts for Emuelec to update the resolution of Mupen64Plu
 
 ## Important
 
-This tool is experimental, besidses not related to [Emuelec](https://github.com/EmuELEC/EmuELEC/) or [Mupen64Plus](https://mupen64plus.org/) projects, and not for commercial purposes, I made it to learn about Emuelec, shell scripts using dialog and managing project at Github.
+This tool is experimental, not related to [Emuelec](https://github.com/EmuELEC/EmuELEC/) or [Mupen64Plus](https://mupen64plus.org/) projects, and not for commercial purposes. I made it to learn about Emuelec, shell scripts using dialog and managing projects at Github
